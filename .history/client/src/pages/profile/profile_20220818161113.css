@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+}
+
+.profileImg {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  top: 20vh;
+  right: 60vw;
+}
+
+.profile-bg {
+  clip-path: fill-box;
+  background-color: rgba(240, 174, 74, 0.7);
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 25vh;
+  right: 40vw;
+}

@@ -1,0 +1,6 @@
+.profileImg {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 23vw;
+  height: 23vw;
+}
