@@ -81,11 +81,11 @@ export default function Write() {
             ))}
           </select>
         </div>
-        <div className="desc">
+        <div className="writeFormGroup">
           <textarea
             placeholder="Tell your story..."
             type="text"
-            className="writeInput writeText"
+            className="writeText"
             onChange={(e) => setDesc(e.target.value)}
           ></textarea>
         </div>
